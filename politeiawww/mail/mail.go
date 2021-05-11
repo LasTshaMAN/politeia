@@ -51,7 +51,7 @@ func (c *Client) SendTo(subject, body string, recipients []string) error {
 // New returns a new mail Client.
 func New(host, user, password, emailAddress, certPath string, skipVerify bool) (*Client, error) {
 	// Email is considered disabled if any of the required user
-	// credentials are mising.
+	// credentials are missing.
 	if host == "" || user == "" || password == "" {
 		log.Infof("Email: DISABLED")
 		return &Client{

@@ -45,7 +45,7 @@ func New(apiToken, host, rootCert, cert, key string) (*github, error) {
 }
 
 // Update fetches all repos from the given organization and updates all
-// users' information once the info is fully received.  If repoRequest is
+// users' information once the info is fully received. If repoRequest is
 // included then only that repo will be fetched and updated, typically
 // used for speeding up testing.
 func (g *github) Update(repos []string, start, end int64) {

@@ -56,7 +56,7 @@ func (r *Records) spendProposalCredit(u user.User, token string) error {
 	return r.userdb.UserUpdate(u)
 }
 
-// piHookNewRecordpre executes the new record pre hook for pi.
+// piHookNewRecordPre executes the new record pre hook for pi.
 //
 // This function is a temporary function that will be removed once user plugins
 // have been implemented.
@@ -83,7 +83,7 @@ func (r *Records) piHookNewRecordPre(u user.User) error {
 	return nil
 }
 
-// piHoonNewRecordPost executes the new record post hook for pi.
+// piHookNewRecordPost executes the new record post hook for pi.
 //
 // This function is a temporary function that will be removed once user plugins
 // have been implemented.

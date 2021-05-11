@@ -34,7 +34,7 @@ var (
 )
 
 // Database interface contains all the functions expected of any db
-// implemention for github code stats.
+// implementation for github code stats.
 type Database interface {
 	// NewPullRequest creates a new pull request for the github code db.
 	NewPullRequest(*PullRequest) error

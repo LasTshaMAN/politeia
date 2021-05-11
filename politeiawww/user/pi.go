@@ -21,7 +21,7 @@ const (
 	// registration fee.
 	ErrorCodeUserRegistrationNotPaid = 1
 
-	// ErrorCodeBalanceInsufficient is returned when a user attempts
+	// ErrorCodeUserBalanceInsufficient is returned when a user attempts
 	// to submit a proposal but does not have a proposal credit.
 	ErrorCodeUserBalanceInsufficient = 2
 )
